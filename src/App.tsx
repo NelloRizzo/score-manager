@@ -61,7 +61,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>Tabella Punteggi</h1>
+      <h1>Scoreboard</h1>
       <h2><input type="text" value={names.teamA} onChange={(e) => updateName("teamA", e.target.value)} /> vs <input type="text" value={names.teamB} onChange={(e) => updateName("teamB", e.target.value)} /></h2>
 
       <table>
